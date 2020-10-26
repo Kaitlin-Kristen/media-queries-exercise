@@ -63,7 +63,7 @@ nav {
 }
 
 section {
-
+    margin: 0.5em;
 }
 
 img {
@@ -79,4 +79,12 @@ li {
     background-color: lightgrey;
     margin: 0.5em 0;
     width: 100%;
+}
+
+.sub-section {
+    font-style: italic;
+}
+
+.sub-section>h2 {
+    font-size: 20px;
 }
