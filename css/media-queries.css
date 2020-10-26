@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    background: grey;
+}
+
+/*.alert-info .hidden-on-desktop {*/
+/*    */
+/*}*/
+
+body {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+body:nth-child(1) {
+    flex-basis: 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: auto;
+}
+
+.nav-links {
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+}
+
+h1 {
+    margin: auto;
+}
+
+nav {
+    text-align: center;
+}
+
+.alert-info, .hidden-on-desktop {
+    text-align: center;
+}
+
+.alert-info a {
+    color: black;
+    background: lightskyblue;
+    text-decoration: none;
+}
+
+section {
+
+}
