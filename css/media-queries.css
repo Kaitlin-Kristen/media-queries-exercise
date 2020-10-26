@@ -104,6 +104,21 @@ footer>p {
     font-size: 10px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------*/
+
 @media screen and (min-width:992px) {
     body {
         display: block;
@@ -173,6 +188,7 @@ footer>p {
 
     img {
         margin: 75px 0 0.5em 0;
+        /*margin: auto;*/
         width: 100%;
         height: auto;
         /*display: block;*/
