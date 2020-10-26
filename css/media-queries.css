@@ -30,7 +30,7 @@ ul {
     flex-direction: column;
     list-style: none;
     margin: auto;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .nav-links {
@@ -78,7 +78,7 @@ li {
     line-height: 3em;
     background-color: lightgrey;
     margin: 0.5em 0;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .sub-section {
@@ -87,4 +87,135 @@ li {
 
 .sub-section>h2 {
     font-size: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    align-items: center;
+
+}
+#social-media-links {
+    /*justify-content: space-between;*/
+    opacity: .3;
+}
+footer>p {
+    font-size: 10px;
+}
+
+@media screen and (min-width:992px) {
+    body {
+        display: block;
+        width: 95%;
+        margin: 0.5em;
+        font-family: sans-serif;
+        /*flex-wrap: wrap;*/
+        position: relative;
+    }
+
+    /*body:nth-child(1) {*/
+    /*    flex-basis: 100%;*/
+    /*}*/
+
+    ul {
+        display: inline-block;
+        list-style: none;
+        /*margin: auto;*/
+        /*width: 100%;*/
+        float: right;
+    }
+
+    .nav-links {
+        /*flex-direction: column;*/
+        /*text-align: center;*/
+        padding: 0;
+    }
+
+    h1 {
+        margin: 1em;
+        /*width: 30%;*/
+        /*float: left;*/
+        position: absolute;
+        top: 30px;
+        left: 15px;
+        /*font-size: 45px;*/
+    }
+
+    nav {
+        /*width: 30%;*/
+        display: inline-block;
+        /*float: right;*/
+        /*position: absolute;*/
+        /*right: 15px;*/
+        /*top: 30px;*/
+        /*float: right;*/
+    }
+
+    .alert-info, .hidden-on-desktop {
+        visibility: hidden;
+        text-align: center;
+        line-height: 3em;
+        background-color: lightskyblue;
+        /*margin: 1em;*/
+        width: 95%;
+        border: 2px solid lightgrey;
+    }
+
+    .alert-info a {
+        color: black;
+        text-decoration: none;
+    }
+
+    section {
+        /*margin: 0.5em;*/
+    }
+
+    img {
+        margin: 75px 0 0.5em 0;
+        width: 100%;
+        height: auto;
+        /*display: block;*/
+    }
+
+    li {
+        text-align: center;
+        line-height: 3em;
+        background-color: white;
+        margin: 0.5em;
+        display: inline-block;
+        /*width: 100%;*/
+    }
+
+    .sub-section {
+        font-style: italic;
+        float: right;
+        width: 30%;
+
+    }
+
+    .sub-section>h2 {
+        font-size: 20px;
+    }
+
+    .main {
+        float: left;
+        width: 60%;
+
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        align-items: center;
+
+    }
+    #social-media-links {
+        /*justify-content: space-between;*/
+        opacity: .3;
+    }
+    footer>p {
+        font-size: 10px;
+    }
 }
