@@ -4,7 +4,8 @@
 
 html, body {
     margin: 0;
-    background: grey;
+    background: white;
+    /*width: 95%;*/
 }
 
 /*.alert-info .hidden-on-desktop {*/
@@ -13,20 +14,23 @@ html, body {
 
 body {
     display: flex;
-    width: 100%;
-    margin: 0 auto;
+    width: 95%;
+    margin: 0.5em;
     flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
 }
 
-body:nth-child(1) {
-    flex-basis: 100%;
-}
+/*body:nth-child(1) {*/
+/*    flex-basis: 100%;*/
+/*}*/
 
 ul {
     display: flex;
     flex-direction: column;
     list-style: none;
     margin: auto;
+    width: 100%;
 }
 
 .nav-links {
@@ -36,23 +40,43 @@ ul {
 }
 
 h1 {
-    margin: auto;
+    margin: 0.5em auto;
 }
 
 nav {
     text-align: center;
+    width: 95%;
 }
 
 .alert-info, .hidden-on-desktop {
     text-align: center;
+    line-height: 3em;
+    background-color: lightskyblue;
+    /*margin: 1em;*/
+    width: 95%;
+    border: 2px solid lightgrey;
 }
 
 .alert-info a {
     color: black;
-    background: lightskyblue;
     text-decoration: none;
 }
 
 section {
 
+}
+
+img {
+    margin: 0.5em;
+    width: 95%;
+    height: auto;
+    /*display: block;*/
+}
+
+li {
+    text-align: center;
+    line-height: 3em;
+    background-color: lightgrey;
+    margin: 0.5em 0;
+    width: 100%;
 }
